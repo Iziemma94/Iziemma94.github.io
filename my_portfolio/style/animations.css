@@ -21,4 +21,5 @@
 /* Apply the hover effect to elements with the "hover-scale" class */
 .hover-scale:hover {
     transform: scale(1.1);
+    background-color: #eee;
 }
