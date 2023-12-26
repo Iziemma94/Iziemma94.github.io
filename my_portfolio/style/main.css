@@ -1,0 +1,64 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Profile Section Styles */
+#profile {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Projects Section Styles */
+#projects {
+    text-align: center;
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Skills Section Styles */
+#skills {
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Contact Section Styles */
+#contact {
+    text-align: center;
+    padding: 20px;
+}

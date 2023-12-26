@@ -1,0 +1,24 @@
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply the fade-in animation to elements with the "fade-in" class */
+.fade-in {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Hover Animation */
+.hover-scale {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Apply the hover effect to elements with the "hover-scale" class */
+.hover-scale:hover {
+    transform: scale(1.1);
+}
