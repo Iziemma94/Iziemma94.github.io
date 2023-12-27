@@ -93,12 +93,14 @@ li {
     margin: 0 10px;
 }
 
-/* Contact Section Styles */
-#contact {
+/* Resume Section Styles */
+#resume {
     text-align: center;
     padding: 20px;
 }
 
-p.inline {
-    display: inline;
+/* Contact Section Styles */
+#contact {
+    text-align: center;
+    padding: 20px;
 }
