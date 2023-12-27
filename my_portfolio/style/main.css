@@ -54,7 +54,7 @@ section {
     padding: 20px;
     position: relative;
     z-index: 1;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .profile-image {
@@ -97,4 +97,8 @@ li {
 #contact {
     text-align: center;
     padding: 20px;
+}
+
+p.inline {
+    display: inline;
 }
