@@ -18,6 +18,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 0;
 }
 
 #navigationMenu a {
@@ -51,6 +52,9 @@ section {
 #profile {
     text-align: center;
     padding: 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
 }
 
 .profile-image {
