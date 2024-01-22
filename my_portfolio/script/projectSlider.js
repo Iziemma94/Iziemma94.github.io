@@ -1,8 +1,6 @@
-// projectSlider.js
 document.addEventListener('DOMContentLoaded', function () {
     // Code to run after the DOM has loaded
-    const slider = document.getElementById('projectSlider');
-    const projects = document.querySelectorAll('.project');
+    const projects = document.querySelectorAll('#projects .project');
     let currentProjectIndex = 0;
 
     function showProject(index) {
